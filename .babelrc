@@ -1,0 +1,29 @@
+{
+  "presets":  ["react-native"],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "@components": "./src/components",
+        "@constants": "./src/constants",
+        "@config": "./src/config",
+        "@state": "./src/state",
+        "@reducers": "./src/state/reducers",
+        "@actions": "./src/state/actions",
+        "@sagas": "./src/state/sagas",
+        "@helpers": "./src/helpers",
+        "@navigators": "./src/navigators",
+        "@screens": "./src/screens",
+        "@assets": "./src/assets",
+        "@fonts": "./src/assets/fonts",
+        "@images": "./src/assets/images"
+      }
+    }]
+  ]
+}
+

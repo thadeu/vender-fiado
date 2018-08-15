@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Vender Fiado",
+    "version": "1.0.0",
+    "slug": "vender-fiado",
+    "sdkVersion": "23.0.0",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.venderfiado.thadeuestevesjr",
+      "publishBundlePath": "ios/vender-fiado/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/vender-fiado/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "br.com.venderfiado.thadeuestevesjr"
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "expa2a7cba940334437ac911d75ff49da61",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.1.4-sdk23.0.0-f67c5bc3-4a27-40f6-8686-91e8f868a145.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.1.2-sdk23.0.0-d47f172b-1ed3-4c8f-9e48-239052c678b6.tar.gz"
+    }
+  }
+}
